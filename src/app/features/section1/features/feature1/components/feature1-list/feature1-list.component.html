@@ -1,0 +1,5 @@
+<h2>Feature 1 list</h2>
+
+<ul>
+  <li *ngFor="let item of (feature1Data$ | async)">{{item.id}} - {{item.description}}</li>
+</ul>
